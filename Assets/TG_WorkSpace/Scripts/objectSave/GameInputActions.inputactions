@@ -1,0 +1,54 @@
+{
+    "name": "GameInputActions",
+    "maps": [
+        {
+            "name": "GameControls",
+            "id": "07d0aa0d-0a52-40aa-8086-8be6acbfaac3",
+            "actions": [
+                {
+                    "name": "Save",
+                    "type": "Button",
+                    "id": "30804f4b-573f-49c3-8c5b-14f5ade12880",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Load",
+                    "type": "Button",
+                    "id": "218d2bea-8d77-41b4-830f-940f4e67d6ba",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "116b2f3b-ca30-4cca-8071-ea7787f2d1c2",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09ffad98-f88a-4f49-857e-9543d993711f",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

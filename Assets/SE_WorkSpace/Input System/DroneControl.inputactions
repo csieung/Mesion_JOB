@@ -1,0 +1,361 @@
+{
+    "name": "DroneControl",
+    "maps": [
+        {
+            "name": "DroneMovement",
+            "id": "82bccf81-1f73-48ec-9ee2-68a74ab737cb",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "972e3966-9ce4-4f5d-aaf4-8a750f21cb02",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "3D Vector",
+                    "id": "c35c54f0-1ff1-4e2b-9e6d-4c22b193edd6",
+                    "path": "3DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Up",
+                    "id": "9f6c501a-c68e-4859-ad09-d929ada83326",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Up",
+                    "id": "5eb4fd33-26fe-407d-a5b0-211788eff6af",
+                    "path": "<QuestProTouchController>{LeftHand}/thumbstick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "7e67ef17-344e-4e90-b1e5-e54bfb5f2fc3",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{LeftHand}/thumbstick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Down",
+                    "id": "72e02f5a-889b-480d-8ae6-e5c0fd9be91e",
+                    "path": "<QuestProTouchController>{LeftHand}/thumbstick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "a58c3b4c-8cce-44eb-9402-7b031658ee78",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{RightHand}/thumbstick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Left",
+                    "id": "66ffd722-793f-4854-88da-141595e0576c",
+                    "path": "<QuestProTouchController>{RightHand}/thumbstick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "f72f7df8-b689-40cc-82e7-b25565a12f21",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{RightHand}/thumbstick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Right",
+                    "id": "c6fa0d7e-4170-4f17-bb8d-423f525084b0",
+                    "path": "<QuestProTouchController>{RightHand}/thumbstick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Forward",
+                    "id": "0c754e52-aacd-4383-a9f2-9fad15599750",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Forward",
+                    "id": "b9a81f1c-d740-4b92-8f72-151a230ba73b",
+                    "path": "<QuestProTouchController>{RightHand}/thumbstick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Backward",
+                    "id": "42493ec3-4609-4500-8a8d-5630ee8bf21f",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Backward",
+                    "id": "1aad6e99-4af6-44d1-a086-ca420899835a",
+                    "path": "<QuestProTouchController>{RightHand}/thumbstick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "DroneRotate",
+            "id": "8b6999fc-0426-4688-8617-3fd54dd517fd",
+            "actions": [
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "6419f0d8-f4a2-487b-beaf-4b5e8b3c9b38",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "f1714a68-201b-4fae-9ef6-5da2c004adad",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "deae89d0-f376-4e4c-98c0-ae3f89e22ac8",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "9fea7255-e948-4179-b2d4-7ce3021ca598",
+                    "path": "<QuestProTouchController>{LeftHand}/thumbstick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0822abfd-0c22-410c-bdbf-03355493853a",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "d52ed168-65e0-4711-b467-f3443f3ce60d",
+                    "path": "<QuestProTouchController>{LeftHand}/thumbstick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "ToggleUIElement",
+            "id": "28134320-7d7f-4e05-9bb2-5d63786aea03",
+            "actions": [
+                {
+                    "name": "TurnOnCamera",
+                    "type": "Button",
+                    "id": "72aad346-671b-42e3-bb84-b8af24f0fe9c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5314f6c4-e2a9-49d1-8626-3ca84cdeb4db",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerOpenXR>{LeftHand}/primarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnOnCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "635309d8-a2c7-4726-99f0-39b83a42013b",
+                    "path": "<QuestProTouchController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnOnCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SprayWater",
+            "id": "036418de-02f4-410a-88a7-32c2237dd3a2",
+            "actions": [
+                {
+                    "name": "SprayWaterAction",
+                    "type": "Button",
+                    "id": "6a7df3ed-c7af-42dd-b2b5-6766eeec0242",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9ef6ba2-5a19-4fcb-8647-cee54f1c593f",
+                    "path": "<OculusTouchController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SprayWaterAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SpraySeed",
+            "id": "ee1d99bf-91f4-47e6-bab6-f47a2c3e4bb5",
+            "actions": [
+                {
+                    "name": "SpraySeedAction",
+                    "type": "Button",
+                    "id": "8fbf89fa-db7c-4296-af57-dd74485d3c20",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4963d528-addf-4ad0-8221-77aeb9b0e9c0",
+                    "path": "<OculusTouchController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpraySeedAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "FarmWater",
+            "id": "50e286db-69a8-4fea-bc90-73993b7d3947",
+            "actions": [
+                {
+                    "name": "FarmWaterAction",
+                    "type": "Button",
+                    "id": "35991f2c-a940-499f-8287-500d96ce0367",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9aeae9b9-7706-4aee-90fb-7f6496414de3",
+                    "path": "<OculusTouchController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FarmWaterAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
